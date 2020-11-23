@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap');
+
+/* VOYAGE CSS  */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Nunito', sans-serif;
+    background-color:  #f6f5f5;
+   
+}
+/* HEADER ACCEUIL */
+nav{
+    width: 100%;
+    background-color: #424558;
+    text-transform: uppercase;
+}
+
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 1.5px;
+
+}
+nav >ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+nav > ul > li{
+    float:left;
+    position: relative;
+}
+
+
+nav li{
+    list-style-type: none;
+    
+} 
+
+.submenu{
+    display: none;    
+    /* 2 menus déroulants */
+}
+.hidden{
+    display: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;  
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;left: 0px;
+    padding: 0px;
+    z-index: 1000;   /* SAFFICHE AU DESSUS DES CONTENUS QUON VA VOULOIR METTRE DANS LA PAGE */
+}
+
+nav li a:hover .sumenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;left: 0px;
+    padding: 0px;
+    z-index: 1000;   /* SAFFICHE AU DESSUS DES CONTENUS QUON VA VOULOIR METTRE DANS LA PAGE */
+}
+
+.submenu li{
+    border-bottom: 1.2px solid #CCC;
+
+}
+.submenu a{
+    padding: 15px 30px;
+    font-size: 17px ;
+    font-weight: bold;
+    color: #222538;
+    width: 270px;
+}
+
+
+.hidden li{
+    border-bottom: 1.2px solid #CCC;
+
+}
+.hidden a{
+    padding: 15px 30px;
+    font-size: 17px ;
+    font-weight: bold;
+    color: #222538;
+    width: 270px;
+}
+
+.colorli a{
+    color: rgb(0, 128, 111);
+}
+
+.menuhtml:hover{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+}
+
+.menuhtml2:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(228,77,38,0.15);
+}
+.menuhtml3:hover{
+    border-top: 5px solid #e7c60b;
+    background-color: rgba(228,77,38,0.15);
+}
+.menuhtml4:hover{
+    border-top: 5px solid #bb00a2;
+    background-color: rgba(228,77,38,0.15);
+}
+
+.colorli:hover{
+    border-top: 5px solid greenyellow;
+    background-color: rgba(228,77,38,0.15);
+}
+/* END HEADER ACCEUIL */
+
+
+
+
+/* MAIN */
+
+
+
+
+.backgroundagain{
+    background-image: url("images1/backgroundagain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colorbackground{
+    background-color:  #a7a6a6;
+    border-radius: 20px;
+    padding-top: 2%;
+}
+
+
+.titlehome{
+    
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    padding-top: 20px;
+    text-shadow:0 1px 0 rgb(200,200,200),
+    0 2px 0 rgb(190,190,190),
+    0 3px 0 rgb(180,180,180),
+    0 4px 0 rgb(175,175,175),
+    0 5px 0 rgb(180,180,180),
+    0 6px 0 rgb(190,190,190),
+    6px 7px  5px  rgba(0, 0, 0, .40),
+    6px 12px 10px rgba(0, 0, 0, .30), 
+    6px 17px 20px rgba(0, 0, 0, .20),
+    6px 22px 30px rgba(0, 0, 0, .10);
+    letter-spacing: 5px;
+    font-size: 50px;
+
+
+}
+
+.h3text{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 25px;
+    color: whitesmoke;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.h4text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.imgblock{
+   background-color:  #a7a6a6;
+   font-family: 'Fondamento', cursive;
+   letter-spacing: 0.5px;
+
+
+}
+
+
+.textblock1{
+    padding-top: 2%;
+    padding-left: 200px;
+    font-weight: bold;
+}
+
+.pnj{
+    
+   height: 600px;
+   width: 800px;
+   padding-top: 5px;
+   padding-left: 27%;
+   border-radius: 35px;
+   
+   
+}
+
+.textblock2{
+    padding-top: 2%;
+    padding-left: 200px;
+    font-weight: bold;
+    font-family: 'Fondamento', cursive;
+   letter-spacing: 0.5px;
+
+}
+
+
+.imgblock2{
+    padding-top: 0px;
+    margin-top: 0px;
+   
+    
+ 
+ 
+ }
+ 
+.textblock3{
+    padding-top: 2%;
+    padding-left: 200px;
+    font-weight: bold;
+    font-family: 'Fondamento', cursive;
+   letter-spacing: 0.5px;
+
+}
+
+
+.imgblock3{
+    padding-top: 0px;
+    margin-top: 0px;
+    
+    
+ 
+ 
+ }
+
+ .textblock4{
+    padding-top: 2%;
+    padding-left: 200px;
+    font-weight: bold;
+    font-family: 'Fondamento', cursive;
+   letter-spacing: 0.5px;
+
+}
+
+
+.imgblock4{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    
+    
+ 
+ 
+ }
+ .textblock5{
+    padding-top: 2%;
+    padding-left: 200px;
+    font-weight: bold;
+    font-family: 'Fondamento', cursive;
+   letter-spacing: 0.5px;
+
+}
+
+
+.imgblock5{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    
+    
+ 
+ 
+ }
+
+/* FOOTER */
+ 
+footer{
+    background: whitesmoke;
+    height: 200px;
+    width: 100%;
+    padding-bottom: 1%;
+    position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+footer p{
+    font-family: 'Syne Mono', monospace;
+
+}
+
+footer p:nth-child(1){
+    font-size: 19px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+    padding-left: 20px;
+
+}
+
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    padding-left: 40px;
+    
+}
+
+footer a{
+    color: black;
+    list-style: none;
+}
+
+footer a:hover{
+    color: rgba(0,136,169,0.8); }
+
+
+.milieux{
+  padding-left: 40px;
+}
+.true{
+    list-style-type: none;
+}
+
+.icons{
+    padding-left: 39px;
+}
+
+.space{
+    margin-right: 5px;
+}
+
+/* END FOOTER */

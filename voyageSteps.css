@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+}
+
+
+.backgroundagain{
+    background-image: url("images1/mongolie-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.titlehome{
+    font-family: 'Courgette', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    padding-top: 20px;
+    text-shadow:0 1px 0 rgb(200,200,200),
+    0 2px 0 rgb(190,190,190),
+    0 3px 0 rgb(180,180,180),
+    0 4px 0 rgb(175,175,175),
+    0 5px 0 rgb(180,180,180),
+    0 6px 0 rgb(190,190,190),
+    6px 7px  5px  rgba(0, 0, 0, .40),
+    6px 12px 10px rgba(0, 0, 0, .30), 
+    6px 17px 20px rgba(0, 0, 0, .20),
+    6px 22px 30px rgba(0, 0, 0, .10);
+    letter-spacing: 5px;
+    font-size: 50px;
+
+
+}
+
+
+
+.h3text{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 25px;
+    color: whitesmoke;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.h4text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #6d6d6d;
+    border:2px solid black;
+
+}
+
+
+.blockstep1{
+    height: 400px;
+    width: 600px;
+    padding-left: 20px;padding-top: 45px;
+
+    
+
+}
+
+.blockstep2{
+    height: 400px;
+    width: 600px;
+    padding-left: 20px;padding-top: 45px;padding-right: 35px;
+
+    
+
+}
+
+.imgradius{
+    border-radius: 20px;
+}
+
+.imgradius2{
+    border-radius: 20px;
+    width: 600px;
+}
+
+.para1{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    color: #6d6d6d;
+}
+
+.para2{
+    float: right;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    color: #6d6d6d;
+}
+
+
+.blockall{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.blockall2{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    padding-left: 0px;
+
+}
+
+.pnj{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+
+}
+
+/* FOOTER */
+
+/* FOOTER */
+ 
+footer{
+    background: whitesmoke;
+    height: 200px;
+    width: 100%;
+    padding-bottom: 1%;
+    position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 270px;
+    
+
+bottom:0;
+
+width:100%;
+}
+
+
+footer p{
+    font-family: 'Syne Mono', monospace;
+
+}
+
+footer p:nth-child(1){
+    font-size: 19px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+    padding-left: 20px;
+
+}
+
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    padding-left: 40px;
+    
+}
+
+footer a{
+    color: black;
+    list-style: none;
+}
+
+footer a:hover{
+    color: rgba(0,136,169,0.8); }
+
+
+.milieux{
+  padding-left: 40px;
+}
+.true{
+    list-style-type: none;
+}
+
+.icons{
+    padding-left: 39px;
+}
+
+.space{
+    margin-right: 5px;
+}
+
+/* END FOOTER */
